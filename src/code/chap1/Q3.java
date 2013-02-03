@@ -7,14 +7,14 @@ package code.chap1;
  */
 public class Q3 {
     public static boolean isSorted(String org, String aft) {
-        char[] chars = org.toCharArray();
-        java.util.Arrays.sort(chars);
+        if (org.length() != aft.length()) return false;
 
-        for (int i = 0; i < org.length(); i++) {
-            if (chars[i] != aft.charAt(i)) {
-                return false;
-            }
-        }
-        return true;
+        return sortString(org).equals(sortString(aft));
+    }
+
+    private static String sortString(String str) {
+        char[] chars = str.toCharArray();
+        java.util.Arrays.sort(chars);
+        return String.valueOf(chars);
     }
 }
