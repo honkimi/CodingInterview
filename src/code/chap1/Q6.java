@@ -20,7 +20,6 @@ public class Q6 {
         public String toString() {
             return "width: " + width + ", height: " + height;
         }
-
     }
 
     public static Pixcel[][] rotateRect(Pixcel[][] rect) {
