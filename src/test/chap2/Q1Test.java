@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import code.chap2.Node;
 import code.chap2.Q1;
-import code.chap2.Q1.Node;
 
 public class Q1Test {
 
