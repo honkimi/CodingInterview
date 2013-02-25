@@ -34,4 +34,8 @@ public class Node {
         }
         return head;
     }
+
+    public String toString() {
+        return "data: " + this.data;
+    }
 }
