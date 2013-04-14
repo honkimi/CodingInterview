@@ -11,7 +11,7 @@ import code.chap3.Node;
 public class Stack {
 	Node top = null;
 
-	Object pop() {
+	public Object pop() {
 		if (top != null) {
 			Object item = top.data;
 			top = top.next;
@@ -20,14 +20,18 @@ public class Stack {
 		return null;
 	}
 
-	void push(Object item) {
+	public void push(Object item) {
 		Node t = new Node(item);
 		t.next = top;
 		top = t;
 	}
 
-	Object peek() {
+	public Object peek() {
 		return top.data;
+	}
+
+	public boolean isEmpty() {
+	    return top == null;
 	}
 
 }
