@@ -76,7 +76,7 @@ public class Q4 {
  *
  * n=4 ‚Ì‚Æ‚«‚Í
  *      n=3‚Ì‚Æ‚«‚Ì‚æ‚¤‚É‚µ‚Äã3‚Â‚Ì‰~”Õ‚ğ“ƒ2‚Ö‚Á‚Ä‚¢‚«A      moveDisks(n - 1, buffer, destination);
- *      ‰~”Õ3‚ğ“ƒ1‚©‚ç“ƒ3‚ÖˆÚ‚µ‚½‚ ‚Æ‚É                          moveTopTo(destination);
+ *      ‰~”Õ4‚ğ“ƒ1‚©‚ç“ƒ3‚ÖˆÚ‚µ‚½‚ ‚Æ‚É                          moveTopTo(destination);
  *      n=3‚Ì‚Æ‚«‚Ì‚æ‚¤‚É‚µ‚Ä“ƒ2‚É‚ ‚é‰~”Õ‚½‚¿‚ğ“ƒ3‚Ö‚à‚Á‚Ä‚¢‚­  buffer.moveDisks(n - 1, destination, this);
  * ...
  *
