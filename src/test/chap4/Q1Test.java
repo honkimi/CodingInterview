@@ -38,4 +38,20 @@ public class Q1Test {
         boolean ret = Q1.isBalancedTree(tree);
         assertFalse(ret);
     }
+
+    @Test
+    public void testAnswer() {
+        Tree tree = new Tree(0);
+
+        tree.current.appendLeft(1);
+        tree.current.appendRight(2);
+        tree.moveLeft();
+        tree.current.appendLeft(3);
+        tree.current.appendRight(4);
+        tree.moveLeft();
+        tree.current.appendLeft(5);
+
+        boolean ret = Q1.isBalanced(tree.root);
+        assertFalse(ret);
+    }
 }
