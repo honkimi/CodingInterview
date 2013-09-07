@@ -12,7 +12,7 @@ import java.util.Map;
  * @author kimi
  *
  */
-public class Q1 {
+public class Main {
     public static void main(String[] args) {
         RateManager mng = FileManager.fileToRates("resources/small.rating");
         HashMap<Integer, Integer> ret = new CosInSimilarity(mng).calc();
